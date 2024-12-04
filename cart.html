@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- MAIN CSS FILE -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body class="page-cart">
+
+    <header class="site-header on-top-of-hero">
+        <div class="site-logo">
+            <a href="index.html">
+                <img src="img/logodarksimple.svg" width="250" height="200" alt="The Barkery Logo">
+            </a>
+            <h1 class="hide-visually"><a href="index.html">Products</a></h1>
+        </div>
+        <nav class="site-header-nav toggle-menu" data-menustate="closed">
+            <button class="site-menu-button">
+                <span class="hide-visually">Menu</span>
+                <svg class="simple-navicon" width="24" height="21">
+                    <rect class="simple-navicon-top" x="0" y="2" height="3" width="24"></rect>
+                    <rect class="simple-navicon-middle" x="0" y="9" height="3" width="24"></rect>
+                    <rect class="simple-navicon-bottom" x="0" y="16" height="3" width="24"></rect>
+                </svg>
+            </button>
+            <ul class="site-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+
+        <section class="cart">
+            <div class="container">
+                <div class="row">
+                    <div class="one-fourth">
+                        <p class="left-text"><strong>PRODUCT</strong></p>
+                    </div>
+
+
+                    <div class="one-fourth">
+                        <p class="left-text"><strong>QUANTITY</strong></p>
+                    </div>
+                    <div class="one-fourth">
+                        <p class="left-text"><strong>COST</strong></p>
+                    </div>
+
+                    <div class="one-fourth">
+                        <p class="left-text"><strong>TOTAL</strong></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="one-fourth">
+                        <img src="img/pineapple.png" alt="Pineapple dog cookie" width="200" height="400">
+                        <p class="left-text">Pineapple Cookie</p>
+                    </div>
+                    <div class="one-fourth">
+                        <p class="left-text">1</p>
+                    </div>
+                    <div class="one-fourth">
+                        <p class="left-text">$3.50</p>
+                    </div>
+
+                    <div class="one-fourth">
+                        <p class="left-text">$3.50</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="one-fourth">
+                        <img src="img/sharkcookiewbg.png" alt="Shark dog cookie" width="200" height="200">
+                        <p class="left-text">Shark Cookie</p>
+                    </div>
+                    <div class="one-fourth">
+                        <p class="left-text">2</p>
+                    </div>
+                    <div class="one-fourth">
+                        <p class="left-text">$3.50</p>
+                    </div>
+
+                    <div class="one-fourth">
+                        <p class="left-text">$7.00</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <section class="order-summary">
+            <div class="container">
+                <div class="row">
+                    <div class="one-fourth"></div>
+                    <div class="one-half">
+                        <p class="left-text"><strong>ORDER SUMMARY</strong></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="one-fourth"></div>
+                    <div class="one-fourth">
+                        <p class="left-text"><strong>SUBTOTAL</strong></p>
+                    </div>
+                    <div class="one-fourth">
+                        <p class="right-text">$10.50</p>
+                    </div>
+                    <div class="one-fourth"></div>
+                </div>
+
+                <div class="row">
+                    <div class="one-fourth"></div>
+
+                    <div class="one-fourth">
+                        <p class="left-text"><strong>SHIPPING</strong></p>
+                    </div>
+                    <div class="one-fourth">
+                        <p class="right-text">STANDARD $6.00</p>
+                    </div class="one-fourth">
+                </div>
+
+                <div class="row">
+                    <div class="one-fourth"></div>
+                    <div class="one-fourth">
+                        <p class="left-text"><strong>TAX</strong></p>
+                    </div>
+
+                    <div class="one-fourth">
+                        <p class="right-text">$0.47</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="one-fourth"></div>
+                    <div class="one-fourth">
+                        <p class="left-text"><strong>TOTAL</strong></p>
+                    </div>
+                    <div class="one-fourth">
+                        <p class="right-text">$16.97</p>
+                    </div>
+                </div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer class="site-footer">
+        <div class="row">
+            <div class="one-fourth">
+                <img src="img/igicon.svg" alt="Instagram Icon" width="40" height="40">
+                <img src="img/fbicon.svg" alt="Facebook Icon" width="40" height="40">
+            </div>
+
+
+            <div class="one-half">
+                <p class="center-text"><strong>The Barkery.</strong> A bakery for dogs.</p>
+
+            </div>
+
+            <div class="one-fourth">
+
+                <nav class="site-footer-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+
+    </footer>
+
+    <!-- MAIN JS FILE -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
