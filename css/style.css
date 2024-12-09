@@ -87,7 +87,7 @@ CSS TABLE OF CONTENTS
     --color-hero-headings: #FFFFFF;
 
     --color-sitefooter-background: #153448;
-    --color-sitefooter-text: rgb(255 255 255 / .8);
+    --color-sitefooter-text: #DFD0B8;
     --color-sitefooter-headings: rgb(255 255 255 / 1);
     --color-sitefooter-links: rgb(255 255 255);
 
@@ -712,6 +712,8 @@ section {
 }
 
 /* SITE FOOTER */
+
+
 .site-footer {
     background-color: var(--color-sitefooter-background);
     color: var(--color-sitefooter-text);
