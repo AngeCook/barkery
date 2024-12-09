@@ -88,8 +88,8 @@ CSS TABLE OF CONTENTS
 
     --color-sitefooter-background: #153448;
     --color-sitefooter-text: #DFD0B8;
-    --color-sitefooter-headings: rgb(255 255 255 / 1);
-    --color-sitefooter-links: rgb(255 255 255);
+    --color-sitefooter-headings: #DFD0B8;
+    --color-sitefooter-links: #DFD0B8;
 
     /*  DEFINE ALL FONTS USED HERE */
     --font-body: "JetBrains Mono", monospace;
