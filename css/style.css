@@ -538,7 +538,7 @@ body {
         display: block;
         background-color: transparent;
         border: 1px solid var(--color-siteheader-links);
-        color: var(--color-siteheader-links);
+        color: var(--color-togglemenu-text);
         padding: .5em;
         position: relative;
         z-index: 100;
@@ -566,7 +566,7 @@ body {
 
             /* SET THE COLOR OF THE SVG TO MATCH */
             svg {
-                fill: var(--color-siteheader-links);
+                fill: var(--color-togglemenu-text);
             }
 
             /*  ADD SUPPORT FOR SVG ANIMATION */
@@ -603,6 +603,11 @@ body {
         a {
             color: var(--color-togglemenu-text);
             padding: 2vh 2vw;
+
+            &:hover {
+                color: #FFFFFF;
+
+            }
         }
     }
 
@@ -733,7 +738,7 @@ section {
     }
 
     a {
-        color: var(--color-links-light);
+        color: var(--color-sitefooter-links);
 
         &:hover {
             color: var(--color-links-lighter);
@@ -761,7 +766,8 @@ section {
 
 /* BUTTONS */
 
-.button {
+.button,
+input[type="submit"] {
     /* SET THE BUTTON COLORS */
     border: 1px solid var(--color-links-dark);
     background-color: var(--color-links-dark);
@@ -1009,8 +1015,9 @@ html {
 
         label,
         input,
-        text-area {
+        textarea {
             display: block;
+            min-width: 300px;
         }
     }
 
